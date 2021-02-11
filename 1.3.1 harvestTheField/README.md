@@ -4,16 +4,19 @@
 
 ```java
 void harvestTheField() {
+    half();
+    turnAround();
+    half();
+}
+
+void half() {
+    pick();
     repeat (2) {
-        pick();
-        repeat (2) {
-            moveForward();
-            moveForward();
-            turnLeft();
-        }
-        pick();
-        turnAround();
+        moveForward();
+        moveForward();
+        turnLeft();   
     }
+    pick();   
 }
 
 void pick() {
