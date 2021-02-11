@@ -2,7 +2,8 @@
 
 **Wichtiger Hinweis:**  
 Einen Algorithmus zu verstehen, ist um einiges leichter, als ihn selbst zu programmieren. Diese Lösungen sind dazu gedacht,
-sie mit seiner **eigenen Lösung** zu vergleichen.  
+sie mit seiner **eigenen Lösung** zu vergleichen.
+
 Wenn du mit deinem Code nicht weiterkommst, frag am besten im Discord unter [#karel](https://discord.gg/steenfatt) nach, wir freuen uns, dir zu helfen! :wink:
 
 [Karel](https://github.com/fredoverflow/karel) ist eine Software für Programmieranfänger.
@@ -18,7 +19,7 @@ Wenn du mit deinem Code nicht weiterkommst, frag am besten im Discord unter [#ka
   - [1.2.3 (saveTheFlower)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.2.3%20saveTheFlower)
   - [1.2.4 (mowTheLawn)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.2.4%20mowTheLawn)
   - [1.3.1 (harvestTheField)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.3.1%20harvestTheField)
-  - [1.3.2 (repairTheStreet)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.3.2%20repairTheStreetl)
+  - [1.3.2 (repairTheStreet)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.3.2%20repairTheStreet)
   - [1.3.3 (cleanTheRoom)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.3.3%20cleanTheRoom)
   - [1.3.4 (tileTheFloor)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.3.4%20tileTheFloor)
   - [1.4.1 (stealOlympicFire)](https://github.com/lukasnehrke/karel-solutions/blob/main/1.4.1%20stealOlympicFire)
