@@ -1,4 +1,5 @@
-
+# 3.1.1 partyAgain
+```java
 void partyAgain() {
     while (onBeeper()) {
         turnLeft();
@@ -21,3 +22,4 @@ void walkIt() {
         turnAround();
     }
 }
+```
