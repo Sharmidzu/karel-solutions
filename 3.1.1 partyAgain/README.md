@@ -1,31 +1,23 @@
-# 3.1.1 partyAgain
 
-## Lösung
-
-```java
 void partyAgain() {
-    while (frontIsClear()) {
-        column();
-        moveForward();
+    while (onBeeper()) {
+        turnLeft();
+        pickBeeper();
+        walkIt();
+        turnLeft();
+        if (frontIsClear()){
+            moveForward();
+        }
     }
-    column();
 }
 
-void column() {
-    turnLeft();
-    pickBeeper();
-    walkAndPick();
-    turnLeft();
-}
-
-void walkAndPick() {
+void walkIt() {
     if (frontIsClear()) {
         moveForward();
-        walkAndPick();
+        walkIt();
         moveForward();
-    } else {
+    }else{
         dropBeeper();
-        turnAround();   
+        turnAround();
     }
 }
-```
