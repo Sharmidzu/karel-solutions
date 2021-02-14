@@ -1,31 +1,25 @@
 # 3.1.2 fetchTheStars
-
-## Lösung
-
 ```java
 void fetchTheStars() {
-    while (frontIsClear()) {
-        column();
-        moveForward();
+    while (!onBeeper()) {
+        turnLeft();
+        walkIt();
+        dropBeeper();
+        turnLeft();
+        if (frontIsClear()){
+            moveForward();
+        }
     }
-    column();
 }
 
-void column() {
-    turnLeft();
-    walkAndPick();
-    dropBeeper();
-    turnLeft();
-}
-
-void walkAndPick() {
+void walkIt() {
     if (frontIsClear()) {
         moveForward();
-        walkAndPick();
+        walkIt();
         moveForward();
-    } else {
+    }else{
         pickBeeper();
-        turnAround();   
+        turnAround();
     }
 }
 ```
